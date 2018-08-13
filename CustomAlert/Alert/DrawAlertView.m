@@ -145,10 +145,10 @@
     [self dismissShareViewController];
 }
 
-//+ (DrawAlertView *)initlization{
-//    DrawAlertView *view = [[[NSBundle mainBundle] loadNibNamed:@"DrawAlertView" owner:self options:nil] objectAtIndex:0];
-//    return view;
-//}
++ (DrawAlertView *)initlization{
+    DrawAlertView *view = [[[NSBundle mainBundle] loadNibNamed:@"DrawAlertView" owner:self options:nil] objectAtIndex:0];
+    return view;
+}
 
 + (id)loadFromNib:(NSString *)name classToLoad:(Class)classToLoad {
     NSString *frameworkBundleID = @"com.iifl.Analti.IIFLAlert";
