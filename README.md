@@ -20,7 +20,7 @@ Now, you can show AlertView with status message:
 
 ### Objective C
 
-DrawAlertView *objAlert = [DrawAlertView loadFromNib:@"DrawAlertView" classToLoad:[DrawAlertView class]];                
+DrawAlertView *objAlert = [DrawAlertView initlization]; //[DrawAlertView loadFromNib:@"DrawAlertView" classToLoad:[DrawAlertView class]];                
 [objAlert initWithDelegate:self message:@"Learning is project created to capture time where some R&D is required for development, it is to be used for KT and Understanding new technology." title:@"Alert!!" btnOK:nil btnCancel:@"Cancel" btnDone:@"Done"];
 
 
