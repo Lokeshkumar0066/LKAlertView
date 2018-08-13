@@ -29,7 +29,7 @@
 
 - (IBAction)Btnclick:(id)sender {
     
-    DrawAlertView *objAlert = [DrawAlertView loadFromNib:@"DrawAlertView" classToLoad:[DrawAlertView class]]; //[DrawAlertView initlization];
+    DrawAlertView *objAlert = [DrawAlertView initlization];//[DrawAlertView loadFromNib:@"DrawAlertView" classToLoad:[DrawAlertView class]]; //[DrawAlertView initlization];
  /*
     objAlert.messageColor = [UIColor lightGrayColor];
     objAlert.titleColor = [UIColor darkGrayColor];
